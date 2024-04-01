@@ -31,6 +31,112 @@
 <hr style="background-color: darkgray">
 <p>Lorem ipsum dolor sit amet, <a href="#">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized.</em> Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is <span>H<sub>2</sub>O</span>. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <em>The New York Times</em> (That's a citation).<u>Underline.</u> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 </p>
-<p>HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type COPY <em>filename.</em> <s>Dinner`s at 5:00</s>. <mark>Let's make that 7.</mark> This <s>text</s> has been struck.</p>
+<p><abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type COPY <em>filename.</em> <s>Dinner`s at 5:00</s>. <mark>Let's make that 7.</mark> This <s>text</s> has been struck.</p>
+<hr style="background-color: darkgray">
+<p><strong><big>Table</big></strong></p>
+<table width="100%" border="1" cellpadding="4" cellspacing="0">
+    <tr>
+        <td><p style="color: grey;">&nbsp;&nbsp;Header</p></td><td><p style="color: grey;">&nbsp;&nbsp;Header</p></td><td><p style="color: grey;">&nbsp;&nbsp;Header</p></td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;Lviv</td><td>&nbsp;&nbsp;Kyiv</td><td>&nbsp;&nbsp;Kharkiv</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;Odessa</td><td>&nbsp;&nbsp;Zhytomyr</td><td>&nbsp;&nbsp;Dnipro</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;Sumy</td><td>&nbsp;&nbsp;Chernivtsi</td><td>&nbsp;&nbsp;Lutsk</td>
+    </tr>
+</table>
+<p><strong><big>Unordered List</big></strong></p>
+<ul type="square">
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li style="padding-left: 20px;">Some nested list item 1</li>
+    <li>List item 3</li>
+</ul>
+
+<p><strong><big>Ordered List</big></strong></p>
+<ol>
+    <li>List item 1</li>
+    <li>List item 2</li>
+</ol>
+<ol>
+    <li style="padding-left: 20px;">A.Some nested list item 1</li>
+</ol>
+<ol start="3">
+    <li>List item 3</li>
+</ol>
+
+<p><big>Definition List</big></p>
+
+<p><b>defines terms 1</b>
+    <br>description 1</p>
+<p><b>defines terms 2</b>
+    <br>description 2</p>
+
+<label for="phone">Details</label>
+<select id="phone" name="phone">
+    <option value="HTML">HTML</option>
+</select>
+
+<hr style="background-color: darkgray">
+
+<p><strong><big>Text formats</big></strong></p>
+
+<p><big>Article Text</big></p>
+
+<p style="margin-left: 10px;"><strong><big>Article title</big></strong></p>
+<p style="margin-left: 5px;">Article description</p>
+<p><big>Preformatted Text</big></p>
+
+<pre>Text
+       in a pre element
+         is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+</pre>
+
+<p><big>Code</big></p>
+
+<pre>
+   .wrapper {
+   display: flex;
+   vertical-align: middle;
+   justify-content: center;
+}
+</pre>
+
+<p><big>Blockquotes</big></p>
+
+<p>Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+
+<blockquote>
+    <p><em>"If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."</em></p>
+    <em><a href="Elon Musk">Elon Musk</a></em>
+</blockquote>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Elements</title>
+</head>
+<body>
+<hr style="background-color: darkgray">
+
+<p><label style="display: block; text-align: right;">First Name:&nbsp;<input type="text" required></label></p>
+<p><label style="display: block; text-align: right;">Surname:&nbsp;<input type="text" required></label></p>
+<p><label style="display: block; text-align: right;">Email:&nbsp;<input type="text" required></label></p>
+
+<p><label style="display: block; text-align: right;"><textarea name="comment" cols="35" rows="20"></textarea></label></p>
+<p><label style="display: block; text-align: right;"><button type="submit">Submit</button></label></p>
+
+
+<footer style="text-align: center;">
+    &copy; Copyright Epam Systems
+</footer>
 </body>
 </html>
+
